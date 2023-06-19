@@ -1,0 +1,156 @@
+/* modal */
+  
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 450px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #212529;
+    color: whitesmoke;
+}
+form > button {
+    display: inline;
+    width: initial;
+}
+.modal-inner{
+    width: 290px;
+    margin: 0 auto;
+}
+
+.modal-inner-loading{
+    text-align: center;
+}
+
+/* modal buttons */
+
+.close-modal-btn-container{
+    text-align: right;
+    margin: 9px;
+}
+
+.modal-close-btn {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: whitesmoke;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:active{
+    color: red;
+    cursor: pointer;
+}
+
+/* .modal-close-btn:disabled{
+    color: whitesmoke;
+    opacity: 0.2;
+    cursor: not-allowed;
+} */
+
+.modal-choice-btns{
+    margin-top: 10px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-btn{
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+/* modal input */
+
+input{
+    margin-top: 10px; 
+    border: 1px solid #212529;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+/* modal after submit */
+
+.loading{
+    width: 100%; 
+    margin-top: 10px;
+}
+
+.modal-display-name{
+    color: fuchsia;
+}
+
+.modal-text{
+    height: 140px;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+.answer{
+    display: none;
+    color: #ee6c4d;
+    border: 1px solid; 
+}
+.active {
+    display: block;
+}
+/* button{
+    padding: 15px 17px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px #999;
+    margin-top: 20px;
+    background-color: #68e1fd;
+} */
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 0px;
+    gap: 5px;
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 30px 2px whitesmoke; */
+}
+
+label{
+    color: #0B3D91;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 15px; 
+}
+
+label:first-child{
+    margin-top: 0;
+}
+
+input{
+    border: 1px solid #0891b2;
+    padding: 8px;
+    border-radius: 5px;  
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+    padding: 12px 17px;
+    border: none;
+    background-color: #FC3D21;
+    color: #ecfeff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+.modal-display-name{
+    color: fuchsia;
+}
